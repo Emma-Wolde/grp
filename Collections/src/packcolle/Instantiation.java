@@ -44,9 +44,9 @@ public class Instantiation {
 		System.out.println(list1.size()+"\n");
 		System.out.println(list1.indexOf(166)+"\n");
 		Iterator<Object>itr= list1.iterator();  
-//		while(itr.hasNext())
-//		{  System.out.println(itr.next()); }
-//		
+	while(itr.hasNext())
+	{  System.out.println(itr.next()); }
+	
 		for(Iterator<Object> it1 = list11.iterator(); it1.hasNext();)
 			System.out.println(it1.next());
 			System.out.println(" This is using iterator (for)method ");
