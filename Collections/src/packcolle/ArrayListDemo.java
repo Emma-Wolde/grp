@@ -42,10 +42,7 @@ public class ArrayListDemo {
 		uu.addAll(a1);
 		System.out.println(uu);
 		System.out.println(uu.size());
-		
-	}
-	
 	
 	
 
-}
+}}
